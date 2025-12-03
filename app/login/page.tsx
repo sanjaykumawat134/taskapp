@@ -46,11 +46,10 @@ export default function Login({ navigate }: Pick<TaskFormProps, "navigate">) {
               {error}
             </div>
           )}
-          <div>
-        
-          </div>
+          <div></div>
           <Input
             required
+            label="username"
             name="username"
             type="text"
             value={username}
@@ -58,6 +57,7 @@ export default function Login({ navigate }: Pick<TaskFormProps, "navigate">) {
           />
           <div>
             <Input
+              label="password"
               required
               name="password"
               type="password"
