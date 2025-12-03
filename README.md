@@ -13,6 +13,10 @@ pnpm dev
 # or
 bun dev
 ```
+// it will automaticaly redirect to login
+// use test as username and test as password
+// will redirect to dashboard page.
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
